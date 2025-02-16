@@ -46,8 +46,8 @@ export const projects = [
     ],
     image: '/projects/blogapp.png'
   },
-  {title: "Courses TechDev",
-    description: "Courses TechDev with Next.js and Typescript",
+  {title: "TechDev Courses",
+    description: "TechDev Courses with Next.js and Typescript",
     tech: [
       {
         name: "React", icon: FaReact, color: "#61DAFB"
