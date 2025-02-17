@@ -26,7 +26,7 @@ import Matter, {
   Runner,
   World,
 } from "matter-js";
-
+import decomp from "poly-decomp";
 import { cn } from "@/lib/utils";
 
 type GravityProps = {
@@ -248,7 +248,7 @@ const Gravity = forwardRef<GravityRef, GravityProps>(
         const height = canvas.current.offsetHeight;
         const width = canvas.current.offsetWidth;
 
-        Common.setDecomp(require("poly-decomp"));
+        Common.setDecomp(decomp);
 
         engine.current.gravity.x = gravity.x;
         engine.current.gravity.y = gravity.y;
@@ -475,7 +475,7 @@ const Gravity = forwardRef<GravityRef, GravityProps>(
       });
       updateElements();
       handleResize();
-    }, []);
+    }, [canvasSize.height, canvasSize.width, handleResize, stopEngine, updateElements]);
 
     useImperativeHandle(
       ref,
