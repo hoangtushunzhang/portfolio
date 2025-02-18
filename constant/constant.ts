@@ -1,5 +1,5 @@
 import { FaReact } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiNextdotjs, SiShadcnui, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 export const navItems = [
     {
@@ -42,6 +42,9 @@ export const projects = [
       },
       {
         name: "Typescript", icon: SiTypescript, color: "#3178C6"
+      },
+      {
+        name: "Shadcn UI", icon: SiShadcnui, color: "000000"
       }
     ],
     image: '/projects/blogapp.png'
@@ -61,6 +64,9 @@ export const projects = [
       },
       {
         name: "Typescript", icon: SiTypescript, color: "#3178C6"
+      },
+      {
+        name: "Shadcn UI", icon: SiShadcnui, color: "000000"
       }
     ],
     image: '/projects/courses.png'
