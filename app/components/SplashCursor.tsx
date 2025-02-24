@@ -154,6 +154,7 @@ export default function SplashCursor({
 
       gl.clearColor(0, 0, 0, 1);
 
+      // logic halfFloatTexType
       const halfFloatTexType = isWebGL2
         ? (gl as WebGL2RenderingContext).HALF_FLOAT
         : (halfFloat && (halfFloat as OES_texture_half_float).HALF_FLOAT_OES) || 0;
