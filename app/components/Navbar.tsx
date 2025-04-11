@@ -8,6 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <motion.nav
       initial={{ y: -100 }}
@@ -86,7 +87,7 @@ const Navbar = () => {
             exit={{ opacity: 0, y: -10 }} 
             transition={{ duration: 0.3 }}
             className="md:hidden mt-4 pb-4 space-y-4"
-          >
+          > 
             {navItems.map((item) => (
               <a
                 key={item.name}
