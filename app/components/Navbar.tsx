@@ -59,7 +59,7 @@ const Navbar = () => {
               </a>
               <a
                 className="p-2 rounded-lg bg-white/5 hover:bg-primary/10 transition-colors group"
-                href={socialLinks.github}
+                href={socialLinks.linkedin}
               >
                 <LinkedInIcon className="h-5 w-5 text-content/80 group-hover:text-primary transition-colors" />
               </a>
