@@ -1,12 +1,12 @@
 "use client";
 import { projects } from "@/constant/constant";
-import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
+import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Main = () => {
   return (
-    <section className="py-32 relative id='work'  ">
+    <section id='work' className="py-20 relative">
       <div className="max-w-7xl mx-auto px-6">
         {/* {Section Heading} */}
         <motion.div

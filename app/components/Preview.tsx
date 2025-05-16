@@ -2,7 +2,7 @@ import Gravity, { MatterBody } from "./Gravity";
 
 export default function Preview() {
   return (
-    <div
+    <div id="skills"
       className="py-20 sm:py-28 md:py-36 mb-6 sm:mb- max-w-7xl mx-auto relative 
     bg-gradient-to-r from-primary/10 via-secondary/10 to-tertiary/10 rounded-2xl overflow-hidden"
     >
@@ -78,6 +78,15 @@ export default function Preview() {
         >
           <div className="text-xl sm:text-2xl md:text-3xl bg-[#00CD9F] text-white rounded-full hover:cursor-grab px-8 py-4 ">
           CSS
+          </div>
+        </MatterBody>
+        <MatterBody
+          matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+          x="50%"
+          y="10%"
+        >
+          <div className="text-xl sm:text-2xl md:text-3xl bg-[#9373] text-white rounded-full hover:cursor-grab px-8 py-4 ">
+          Node.js
           </div>
         </MatterBody>
       </Gravity>
