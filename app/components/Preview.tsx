@@ -89,6 +89,15 @@ export default function Preview() {
           Node.js
           </div>
         </MatterBody>
+        <MatterBody
+          matterBodyOptions={{ friction: 0.5, restitution: 0.2 }}
+          x="50%"
+          y="10%"
+        >
+          <div className="text-xl sm:text-2xl md:text-3xl bg-[#5203fc] text-white rounded-full hover:cursor-grab px-8 py-4 ">
+          Three.js
+          </div>
+        </MatterBody>
       </Gravity>
     </div>
   );
