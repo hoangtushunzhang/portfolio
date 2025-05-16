@@ -108,7 +108,7 @@ export const Experiences = [
   {
     title: "Front End Developer",
     company: "TMA Solutions",
-    duration: "2024 - May 2025",
+    duration: "2024 - March 2025",
     status: "End",
     description:
       "As a Front End Developer at TMA Solutions, I specialize in building modern, responsive web applications using cutting-edge technologies. My role involves:",
