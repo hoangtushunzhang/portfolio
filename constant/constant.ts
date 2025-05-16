@@ -103,3 +103,30 @@ export const projects = [
     image: '/projects/ai-courses.png'
   }
 ]
+
+export const Experiences = [
+  {
+    title: "Front End Developer",
+    company: "TMA Solutions",
+    duration: "2024 - May 2025",
+    status: "End",
+    description:
+      "As a Front End Developer at TMA Solutions, I specialize in building modern, responsive web applications using cutting-edge technologies. My role involves:",
+    responsibilities: [
+      "Developing and maintaining enterprise-level web applications using React, Next.js, and TypeScript",
+      "Implementing responsive designs and ensuring cross-browser compatibility",
+      "Collaborating with UX/UI designers to create intuitive and engaging user interfaces",
+      "Working closely with backend teams to integrate RESTful APIs and GraphQL endpoints",
+      "Optimizing application performance and implementing best practices for web development",
+      "Participating in code reviews and contributing to team knowledge sharing",
+    ],
+    skills: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "GraphQL",
+      "REST APIs",
+    ],
+  },
+];
