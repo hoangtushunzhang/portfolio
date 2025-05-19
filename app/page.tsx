@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Preview from "./components/Preview";
-import Experience from "./components/Experience";
+// import Experience from "./components/Experience";
 import ThreeScene from "./components/ThreeScene";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <ThreeScene />
       <Main />
-      <Experience />
+      {/* <Experience /> */}
       <Preview/>
       <Footer />
     </div>
